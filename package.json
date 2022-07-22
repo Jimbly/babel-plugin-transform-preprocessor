@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin-transform-preprocessor",
+  "version": "1.0.0",
+  "description": "Simple identifier replacements for Babel",
+  "main": "lib/transform-preprocessor.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Jimbly/babel-plugin-transform-preprocessor.git"
+  },
+  "scripts": {
+    "start": "nodemon test/test.js",
+    "test": "node test/test.js"
+  },
+  "author": "Jimb Esser (https://github.com/Jimbly)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1"
+  }
+}
